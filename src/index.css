@@ -1,0 +1,79 @@
+/* General Container Styling */
+body{
+    background-color: #007bff;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #eeedf1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Quiz Header */
+  .quiz h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Option Styling */
+  .option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #df7f7f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #f0f8ff;
+    border-color: #df7f7f;
+  }
+  
+  .option input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Button Styling */
+  button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #df7f7f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  /* Score Section */
+  .score {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  /* Flexbox Centering */
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
